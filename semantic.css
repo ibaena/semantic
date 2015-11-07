@@ -1,6 +1,6 @@
 body{
-	background-image: url(http://www.isffhollywood.org/wp-content/themes/city-desk/timthumb.php?src=http%3A%2F%2Fwww.isffhollywood.org%2Fwp-content%2Fuploads%2F2012%2F11%2Fstock-footage-film-reel-background.jpg&q=90&w=640&zc=1);
-	margin:0;
+	background-image: url(http://img04.deviantart.net/3478/i/2012/213/5/7/samuel_l__jackson_by_lightning_stroke-d59fcqn.jpg);
+	background-size: 100% 100%;
 	font-family: Verdana, Georgia,sans serif;
 	font-size: 14px;
 	height: 1000px;
@@ -13,30 +13,43 @@ header {
     height: 50px;
     width: 100%;
     background-color: black;
-    z-index: -1;
+   
+    z-index: 9999;
     padding: 5px 10px 10px;
 }
 
-nav{
+header nav{
 	width: 100%;
 }
 
-nav ul{
+header nav ul{
 	z-index: 9999;
 	text-align: center;
 	/*margin-left: auto;
 	margin-right: auto;
 	width: 30%;*/
 	display: fixed;
+	color: white;
 }
 
-nav ul li {
+header nav ul li {
 	z-index: 9999;
 	display: inline;
 	font-weight: bold;
 	font-size: 130%;
 	color: white;
 	padding: .02em 1em;
+}
+
+header nav ul li a {
+	color: white;
+	text-decoration: none;
+}
+
+header nav ul li a:hover{
+	color: black;
+	background-color:white;
+	background-size: 100% 100%;
 }
 
 section {
@@ -53,13 +66,16 @@ section {
 }
 
 footer {
-	position:fixed;
-   left:0px;
+	position:relative;
+   text-align: center;
    bottom:0px;
-   height:30px;
+   height:40px;
    width:100%;
 	color: white;
 	background-color: black;
+	clear: left;
+	margin-top: 15px;
+
 }
 
 h2 {
@@ -71,42 +87,24 @@ h2 {
 	color: black;
 
 }
-.sideleft{
-	float:left;
-	background-image: url(http://7-themes.com/data_images/out/13/6810783-star-wars-logo.jpg);
-	background-size: 100% 100%;
-	width: 300px;
-	height: 641px;
-	margin-left: 10px;
-	margin-right: 20px;
-	margin-top: 100x;
-	border-radius: 5px;
-	clear: left;
-}
+ img{
+        height: auto;
+        width:100%;
+        border-radius: 5px;
+        margin-top: 10px;
+        margin-bottom:-10px;
+    }
 
-.sideleft2{
-	float:left;
-	background-image: url(http://wallpapercave.com/wp/J57hrVh.png);
-	background-size: 100% 100%;
-	width: 300px;
-	height: 568px;
-	margin-left: 10px;
-	margin-right: 20px;
-	margin-top: 97px;
-	border-radius: 5px;
-	clear: left;
-}
+    h1 {
+    	font-size: 300%;
+    	font-weight: bolder;
+    	color: black;
+    	margin-top: 90px;
+    	margin-bottom: 20px;
+    	text-align: center;
+    	position: static;
+    }
 
-.sideleft3{
-	float:left;
-	background-image: url(https://upload.wikimedia.org/wikipedia/it/c/ce/The_Spirit_-_Trailer_2.jpg);
-	background-size: 100% 100%;
-	width: 300px;
-	height: 395px;
-	margin-left: 10px;
-	margin-right: 20px;
-	margin-top: 100px;
-	border-radius: 5px;
-	clear: left;
-}
+
+	
 
